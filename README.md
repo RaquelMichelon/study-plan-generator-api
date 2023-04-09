@@ -32,9 +32,11 @@ API for study plan generation given certain subject using OpenAI API <br/>
 
 3 - Copy the OpenAi API key to the `application.properties` file
 
-4 - Run the application
+4 - On the Controller, check the Client URL on the @CrossOrigin annotation
 
-5 - Test the application via curl (or an HTTP client of your choice)
+5 - Run the application
+
+6 - Test the application via curl (or an HTTP client of your choice)
 
 ```
 curl http://localhost:8080/study-plans -H "Content-Type: application/json" -d "Geometry"

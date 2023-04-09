@@ -36,7 +36,7 @@ public class StudyNotesServiceOpenAI {
     private OpenAIRequest createStudyRequest(String subject) {
 
         // prompt question
-        String prompt = String.format("Please enterWhat are 5 key points I should know when studying %s?", subject);
+        String prompt = String.format("Please enter What are 5 key points I should know when studying %s?", subject);
 
         return new OpenAIRequest("text-davinci-003", prompt, 0.3, 2000, 1.0, 0.0, 0.0);
     }

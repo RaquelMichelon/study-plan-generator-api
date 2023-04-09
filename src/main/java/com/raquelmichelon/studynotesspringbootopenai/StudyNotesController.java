@@ -1,6 +1,7 @@
 package com.raquelmichelon.studynotesspringbootopenai;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RestController;
@@ -14,6 +15,7 @@ public class StudyNotesController {
     private StudyNotesServiceOpenAI service;
 
     // return only the text
+    @CrossOrigin(origins = "http://localhost:8081")
     @PostMapping("/study-plans")
     public Mono<String> createStudyPlan(@RequestBody String subject) {
         return service.createStudyNotes(subject)

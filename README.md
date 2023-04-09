@@ -2,6 +2,7 @@
 
 <p align="center">
 API for study plan generation given certain subject using OpenAI API <br/>
+UI project [here](https://github.com/RaquelMichelon/study-plan-vuejs-ui)
 </p>
 
 <p align="center">

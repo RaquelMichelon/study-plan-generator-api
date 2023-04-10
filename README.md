@@ -2,7 +2,6 @@
 
 <p align="center">
 API for study plan generation given certain subject using OpenAI API <br/>
-UI project [here](https://github.com/RaquelMichelon/study-plan-vuejs-ui)
 </p>
 
 <p align="center">
@@ -37,7 +36,7 @@ UI project [here](https://github.com/RaquelMichelon/study-plan-vuejs-ui)
 
 5 - Run the application
 
-6 - Test the application via curl (or an HTTP client of your choice)
+6 - Test the application via curl (or an HTTP client of your choice) - I developed an UI project you can use for this API that can be found [here](https://github.com/RaquelMichelon/study-plan-vuejs-ui)
 
 ```
 curl http://localhost:8080/study-plans -H "Content-Type: application/json" -d "Geometry"

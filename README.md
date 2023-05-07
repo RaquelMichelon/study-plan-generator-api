@@ -18,6 +18,10 @@ API for study plan generation given certain subject using OpenAI API <br/>
 
 <br>
 
+> Note! Check the UI I developed [here](https://github.com/RaquelMichelon/study-plan-vuejs-ui) 
+
+<br>
+
 > Note! This project is a working in progress
 
 <br>
